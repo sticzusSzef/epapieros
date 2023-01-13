@@ -13,7 +13,7 @@ PlayerData = {}
 ESX = exports['es_extended']:getSharedObject()
 
 
-RegisterNetEvent("upiczek_eszlugi:usedItem", function()
+RegisterNetEvent("jebacclouda_eszlugi:usedItem", function()
 	local ped = PlayerPedId()
 	local coords = GetEntityCoords(ped)
 	local ad = "mp_player_inteat@burger"
@@ -32,7 +32,7 @@ RegisterNetEvent("upiczek_eszlugi:usedItem", function()
 		local tekst = thingsToSay[random]
 		ExecuteCommand("me " .. tekst)
 		Wait(950)
-		TriggerServerEvent("upiczek_eszlugi:efekcik", PedToNet(ped), coords)
+		TriggerServerEvent("jebacclouda_eszlugi:efekcik", PedToNet(ped), coords)
 		szlugtimeleft = 60
 		SetRunSprintMultiplierForPlayer(PlayerId(), 1.49)
 		Wait(950)
@@ -41,7 +41,7 @@ RegisterNetEvent("upiczek_eszlugi:usedItem", function()
 		vaping = false
 	end
 end)
-RegisterNetEvent("upiczek_eszlugi:rubHmure", function(ped, coords)
+RegisterNetEvent("jebacclouda_eszlugi:rubHmure", function(ped, coords)
 	local distance = #(GetEntityCoords(PlayerPedId()) - coords)
 	if distance <= 100 then
 		if DoesEntityExist(NetToPed(ped)) and not IsEntityDead(NetToPed(ped)) then
