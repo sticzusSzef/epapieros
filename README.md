@@ -1,6 +1,6 @@
 ## szefitek
 * [Discord](`sticzus#3032)
-* [SiriosRP](#https://discord.gg/hBRfhJbZp6)
+* [SiriosRP](https://discord.gg/hBRfhJbZp6)
 
 
 ## 
