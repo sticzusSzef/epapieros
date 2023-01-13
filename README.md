@@ -5,6 +5,7 @@
 
 
 ## 
-Wyjęte z dumpa clouda i na szybkosci dopisany server client
+* Wyjęte z dumpa clouda i na szybkosci dopisany server client
+* trzeba tez dym naprawic bo rozjebany jest a nie chce mi sie tego robic pozdro elo
 	
 	
