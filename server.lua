@@ -1,0 +1,10 @@
+ESX = exports['es_extended']:getSharedObject()
+
+ESX.RegisterUsableItem('epapieros', function(playerId)
+   local xPlayer = ESX.GetPlayerFromId(playerId)
+   xPlayer.showNotification('~g~Zapaliles E-Papierosa')
+   xPlayer.triggerEvent('upiczek_eszlugi:usedItem')
+   xPlayer.triggerEvent('upiczek_eszlugi:efekcik')
+   xPlayer.triggerEvent('upiczek_eszlugi:rubHmure')
+   xPlayer.triggerEvent('exp_grd_bzgas_smoke')
+end)
