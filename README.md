@@ -1,5 +1,5 @@
 ## sticzus
-* Discord `sticzus#3032
+* Discord 1337sticzus#0187
 * [SiriosRP](https://discord.gg/hBRfhJbZp6)
 * [Instagram](https://www.instagram.com/1337sticzus/)
 
